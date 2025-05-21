@@ -110,7 +110,7 @@ class CarritoDeCompras {
         this.montoPagado = monto;
         verificarCumpleMonto();
         if (this.cumpleMonto) {
-            System.out.println("Pago aceptado. ¡Gracias por su compra!");
+            System.out.println("\nPago aceptado. ¡Gracias por su compra!");
             for (int i = 0; i < this.producto.size(); i++) {
                 Producto enCarrito = this.producto.get(i);
                 for (Producto prod : inventario) {
